@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>徐某的简历</title>
+</head>
+
+<body>
+    <div id="demo1"></div>
+    <div id="aaa">
+        <div id="demo2"></div>
+    </div>
+
+    <style id="style">* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  justify-content: space-around;
+  display: flex;
+}
+
+#demo1 {
+  max-width: 40vw;
+  word-break: break-all;
+  display: flex;
+}
+
+#aaa {
+  width: 25vw;
+  display: flex;
+}
+
+#demo2 {
+  width: 25vw;
+  height: 25vw;
+  background-color: #ccc;
+  display: flex;
+  position: fixed;
+}
+
+#demo2:before, #demo2:after {
+  content: "";
+  display: flex;
+}
+
+@media (max-width: 500px) {
+  body {
+    flex-direction: column;
+    display: flex;
+  }
+
+  #demo1 {
+    max-width: 100vw;
+    height: 70vh;
+    display: flex;
+    overflow: auto;
+  }
+
+  #aaa {
+    max-width: 100vw;
+    height: 30vh;
+    display: flex;
+  }
+
+  #demo2 {
+    bottom: 10vh;
+    left: 37.5vw;
+  }
+}
+
+</style>
+    <script src="/index.de158e3a.js"></script>
+</body>
+
+</html>
