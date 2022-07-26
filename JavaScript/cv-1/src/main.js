@@ -91,7 +91,7 @@ let step=()=>{
         window.scrollTo(0, 80000);
         demo1.scrollTo(0, 80000);
         n < string.length ? step() : null;
-    }, 10)
+    }, 100)
     
 }
 step();
