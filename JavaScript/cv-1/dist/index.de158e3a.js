@@ -52,16 +52,6 @@ let string = `
     flex-direction:column;
 }
 
-/*差不多要成了，就差最后一步
-将两个球上下分离*/
-
-/*#demo2::before{
-    margin-bottom:13.5vw;
-}
-#demo2::after{
-    margin-top:13.5vw;
-}*/
-
 /*太极两点的位置已经妥当，接下来就要完善分割阴阳的线条*/
 #demo2::before{
     border:4.25vw solid white;
